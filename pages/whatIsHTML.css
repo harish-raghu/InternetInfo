@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What is HTML?</title>
+        <link rel="stylesheet" type="text/css" href="../css/main.css"/>
+
+        <!-- Imports font family Montserrat into website, in order to make it look nicer. -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="siteTitle">What is HTML?</h1>
+        <div class="content">
+                <p class="normalText"> HTML (short for <i>Hyper-Text Markup Language</i>) is the backbone of the web. It is the language that every single website <strong>ever</strong> uses. <br>
+                    While CSS handles the looks and JavaScript takes care of the behaviour of a webpage, HTML is the content provider.</p>
+                
+                <img src="https://cdn-images-1.medium.com/max/2000/1*l4xICbIIYlz1OTymWCoUTw.jpeg"/>
+
+                <p class="normalText">Every single HTML webpage should start with the following line of code: it's a must have.</p>
+
+                <iframe width="100%" height="90" src="https://jsfiddle.net/rtn28hzm/embedded/html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+                <p class="normalText">After this we create a HTML <strong>tag.</strong> We create a tag by typing a &lt;, the name of the element (in this case, html), and a &gt; sign.</p>
+
+                <iframe width="100%" height="150" src="https://jsfiddle.net/75yunso8/embedded/html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+                <p class="normalText">Inside the &lt;body&gt; tag, we can include all of our content.</p><br>
+
+                <p class="normalText">We can use p tags for paragraphs, h1 tags for headings and a tags for links.</p>
+
+                <iframe width="100%" height="200" src="https://jsfiddle.net/75yunso8/1/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+                <br><br><br><br><br>
+        </div>
+        
+        <div id="headerLinks">
+            <a href="../pages/whatIsHTML.html"><button class="btnTopLink" style="background-color:#3b6c82; width: 15%;">HTML</button></a>
+            <a href="../pages/whatIsCSS.html"><button class="btnTopLink" style="background-color:#408bad; width: 10%;">CSS</button></a>
+            <a href="../pages/whatIsJavaScript.html"><button class="btnTopLink" style="background-color:#3397c4; width: 25%;">JavaScript</button></a>
+            <a href="../pages/HackersAndCrackers.html"><button class="btnTopLink" style="background-color:#0da0e2; width: 49%;">Hackers and Crackers</button></a>
+        </div>
+    </body>
+</html>
